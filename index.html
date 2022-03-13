@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegir un producto a cargar</title>
+</head>
+<body>
+    <h2>Cargar Producto</h2>
+    <form action="/api/productos/guardar" method="POST">
+        title: <input type="text" name="title">
+        price: <input type="text" name="price">
+        thumbnail: <input type="text" name="thumbnail">
+        <button>SEND</button>
+    </form>
+</body>
+</html>
